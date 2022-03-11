@@ -1,7 +1,7 @@
 package tr.edu.maltepe.oop;
 
-public class Student {
-    String name;
+public class Student extends Person {
+ int grade;
 
 }
 
