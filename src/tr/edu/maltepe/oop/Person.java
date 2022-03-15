@@ -4,6 +4,18 @@ public class    Person {
     private String name;
     private  String department;
     private int age;
+    
+      public Person(){
+        name;
+        department;
+        age;
+    }
+    public Person(String name, String department, int age){
+        this();
+        this.name=name;
+        this.department=department;
+        this.age=age;
+    }
 
     public String getName() {
         return name;
