@@ -1,7 +1,7 @@
 package tr.edu.maltepe.oop;
 
 public class Student extends Person {
-  private int ıd;
+  private int ıdd;
   
  
 public Student(int ıdd) {
@@ -12,13 +12,16 @@ public Student(int ıdd) {
 
   public int getId(){
 
-      return ıd;
+      return ıdd;
   }
 
- public void setId(int ıd) {
+ public void setId(int ıdd) {
 
-      this.ıd = ıd;
+      this.ıdd = ıdd;
  }
+      public void learning () {
+        System.out.println(getName() +" is learning " +lesson);
+    }
 }
 
 
