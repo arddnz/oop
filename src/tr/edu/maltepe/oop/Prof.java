@@ -4,9 +4,7 @@ public class Prof extends Person{
 private String lesson;
 
     
-public Prof(){
-    lesson;
-}
+
 public Prof(String lesson){
     this();
     this.lesson=lesson;
