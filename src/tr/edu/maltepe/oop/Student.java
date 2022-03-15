@@ -3,9 +3,7 @@ package tr.edu.maltepe.oop;
 public class Student extends Person {
   private int ıd;
   
-  public Student() {
-    ıdd;
-}
+ 
 public Student(int ıdd) {
     this();
     this.ıdd = ıdd;
