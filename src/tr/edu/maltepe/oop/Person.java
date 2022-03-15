@@ -5,11 +5,7 @@ public class    Person {
     private  String department;
     private int age;
     
-      public Person(){
-        name;
-        department;
-        age;
-    }
+      
     public Person(String name, String department, int age){
         this();
         this.name=name;
