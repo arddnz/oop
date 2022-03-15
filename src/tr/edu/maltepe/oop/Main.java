@@ -44,11 +44,13 @@ public class Main {
         System.out.println(student1.getAge());
         System.out.println(student1.getDepartment());
         System.out.println(student1.getId() +"");
+        student1.learning();
         System.out.println("\n");
         System.out.println(student2.getName());
         System.out.println(student2.getAge());
         System.out.println(student2.getDepartment());
         System.out.println(student2.getId() +"");
+         student2.learning();
 
 
     }
