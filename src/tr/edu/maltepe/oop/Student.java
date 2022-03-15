@@ -2,11 +2,13 @@ package tr.edu.maltepe.oop;
 
 public class Student extends Person {
   private int ıdd;
+    private String lesson;
   
  
 public Student(int ıdd) {
     
     this.ıdd = ıdd;
+    this.lesson=lesson;
 }
 
 
