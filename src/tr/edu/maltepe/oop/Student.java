@@ -5,7 +5,7 @@ public class Student extends Person {
   
  
 public Student(int ıdd) {
-    this();
+    
     this.ıdd = ıdd;
 }
 
