@@ -5,50 +5,50 @@ public class Main {
 
     public static void main(String[] args) {
         Prof prof1 = new Prof();
-        prof1.name = "Ensar Gül";
-        prof1.age = 60;
-        prof1.department = "software engineeer";
-        prof1.lesson = "oop";
+        prof1.setName("Ensar Gül");
+        prof1.setAge(60);
+        prof1.setDepartment("software engineeer");
+        prof1.setLesson("oop");
 
         Prof prof2 = new Prof();
-        prof2.name = "Hamit Topuz";
-        prof2.age = 53;
-        prof2.department = "industry engineer";
-        prof2.lesson = "probability and statictic";
+        prof2.setName("Hamit Topuz");
+        prof2.setAge(53);
+        prof2.setDepartment("industry engineer");
+        prof2.setLesson("probability and statictic");
 
 
         Student student1 = new Student();
-        student1.name = "Deniz";
-        student1.age = 21;
-        student1.department = "computer engineer";
-        student1.grade=2;
+        student1.setName("Deniz");
+        student1.setAge(21);
+        student1.setDepartment("computer engineer");
+        student1.setId(190704021);
 
         Student student2 = new Student();
-        student2.name = "Şevval";
-        student2.age = 22;
-        student2.department = "law";
-        student2.grade=3;
+        student2.setName("Şevval");
+        student2.setAge(22);
+        student2.setDepartment("law");
+        student2.setId(190703215);
 
 
-        System.out.println("prof."+prof1.name);
-        System.out.println(prof1.age);
-        System.out.println(prof1.department);
+        System.out.println("prof."+ prof1.getName());
+        System.out.println(prof1.getAge());
+        System.out.println(prof1.getDepartment());
         prof1.teaches();
         System.out.println("\n");
-        System.out.println("prof."+prof2.name);
-        System.out.println(prof2.age);
-        System.out.println(prof2.department);
+        System.out.println("prof."+ prof2.getName());
+        System.out.println(prof2.getAge());
+        System.out.println(prof2.getDepartment());
         prof2.teaches();
         System.out.println("\n");
-        System.out.println(student1.name);
-        System.out.println(student1.age);
-        System.out.println(student1.department);
-        System.out.println(student1.grade+".class");
+        System.out.println(student1.getName());
+        System.out.println(student1.getAge());
+        System.out.println(student1.getDepartment());
+        System.out.println(student1.getId() +"");
         System.out.println("\n");
-        System.out.println(student2.name);
-        System.out.println(student2.age);
-        System.out.println(student2.department);
-        System.out.println(student2.grade+".class");
+        System.out.println(student2.getName());
+        System.out.println(student2.getAge());
+        System.out.println(student2.getDepartment());
+        System.out.println(student2.getId() +"");
 
 
     }
