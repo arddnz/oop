@@ -6,7 +6,7 @@ private String lesson;
     
 
 public Prof(String lesson){
-    this();
+    
     this.lesson=lesson;
 }
 
